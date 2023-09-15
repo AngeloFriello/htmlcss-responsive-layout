@@ -54,7 +54,6 @@ a {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .col-4 {
@@ -94,6 +93,13 @@ a {
     padding: 0 18px;
 }
 
+.button-blu{
+    color: white;
+    background-color: #0084FD;
+    padding: 0 45px;
+    margin-top: 30px ;
+}
+
 /* header */
 
 .page-header {
@@ -114,10 +120,54 @@ a {
     color: white;
 }
 
-.logo{
-    
+/* SECTION-1 */
+
+.section-1 .col-8{
+    background-color: #B5DDFF;
+    padding: 20px;
+    display: flex;
+    border-radius: 30px
 }
 
+.col-8 img{
+    width: 200px;
+}
 
+.section-1 .col-4{
+    background-color: #B5DDFF;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}
 
+.section-1 p{
+    line-height: 2;
+}
 
+.section-1 .row{
+    gap: 24px;
+    padding-top: 50px;
+}
+
+.row-bot{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.section-1 h3{
+    color: #0084FD;
+    font-size: 23px;
+    padding: 20px 0px;
+}
+
+.icon-blu{
+    color: #0084FD;
+
+    font-size: 80px;
+}
+
+.fa-apple{
+    color: white;
+    font-size: 17px;
+}
