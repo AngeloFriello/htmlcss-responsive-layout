@@ -303,10 +303,6 @@ section{
     display: flex;
 }
 
-.card-img{
-    width: 200px;
-}
-
 .img-circle{
     border-radius: 50%;
     height: 200px;
@@ -341,6 +337,13 @@ section{
 
 /* SECTION-4 */
 
+.section-4 h3{
+    color: white;
+    font-size:50px ;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 .section-4, .section-6{
     background-color: #9792E4;
