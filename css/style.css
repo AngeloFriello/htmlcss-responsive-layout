@@ -408,9 +408,23 @@ section{
     }
 
 
+/* FOOTER */
 
 
+footer{
+    background-color: #333333;
+    text-align: center;
+}
 
+footer .container-extra-small :first-child {
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+footer .container-extra-small :last-child {
+    color: white;
+        
+}
 
 
 
