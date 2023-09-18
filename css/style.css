@@ -15,7 +15,7 @@ ul,ol,menu {
 }
 
 img {
-    max-width: 300px;
+    max-width: 100%;
     display: block;
 }
 
@@ -27,7 +27,7 @@ a {
 }
 
 section{
-    padding: 50px;
+    padding: 0px;
 }
 
 
@@ -226,10 +226,15 @@ section{
     font-size: 17px;
 }
 
+
+
 /* SECTION-2 */
+
+
 
 .section-2{
     background-color: #9792E4;
+    
 }
 
 .section-2 .col-6{
@@ -246,7 +251,7 @@ section{
     border-radius: 30px;
     text-align: center;
     padding: 30px;
-    margin-top: 300px   ;
+    margin-top: 400px;
 }
 
 .white-card h3{
@@ -281,6 +286,10 @@ section{
 
 /* SECTION-3 */
 
+.section-3{
+    padding: 70px 0px;
+}
+
 .section-3 .row{
     text-align: center;
     display: flex;
@@ -292,6 +301,10 @@ section{
     background-color: #9792E4;
     border-radius: 50px;
     display: flex;
+}
+
+.card-img{
+    width: 200px;
 }
 
 .img-circle{
@@ -331,6 +344,7 @@ section{
 
 .section-4, .section-6{
     background-color: #9792E4;
+    padding: 70px 0px;
 }
 
 .section-4 .row{
@@ -359,7 +373,12 @@ section{
     padding-bottom: 20px;
 }
 
+
 /* SECTION-5 */
+
+.section-5{
+    padding: 70px 0px;
+}
 
 .section-5 .col-8 p{
     line-height: 2;
@@ -423,40 +442,12 @@ footer .container-extra-small :first-child {
 
 footer .container-extra-small :last-child {
     color: white;
-        
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-img{
+    flex-shrink: 0;
+}
 
 
 
@@ -468,6 +459,7 @@ footer .container-extra-small :last-child {
     }
     .col-8 .card{
         flex-wrap: wrap;
+        flex-basis: 50%;
     }
     .section-2 .row{
         display: flex;
@@ -476,9 +468,15 @@ footer .container-extra-small :last-child {
     .col-6{
         flex-basis: 100%;
     }
+    .white-card{
+        margin-top: 50px;
+    }
+    .section-4 .col-4{
+        flex-basis: 50%;
+    }
 }
 
-@media (max-width:480px){
+@media (max-width:580px){
     
     .row{
         flex-wrap: wrap;    
@@ -486,4 +484,12 @@ footer .container-extra-small :last-child {
     .container [class^='col']{
         flex-basis: 100%;
     }
-}
+    .section-4 .col-4{
+        flex-basis: 10  0%;
+    }
+    .section-3 .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}  
